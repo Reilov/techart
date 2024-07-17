@@ -23,7 +23,7 @@
                 <h2 class="title">Новости</h2>
                 <div class="news__items">
                     <?php foreach($fourNews as $news) { ?>
-                        <a href="?action=show&id=<?= $news['id']?>" class="news__item">
+                        <a href="?id=<?= $news['id']?>" class="news__item">
                             <div class="news__date"><?= $news['formatDate'] ?></div>
                             <h3 class="news__title"><?= $news['title'] ?></h3>
                             <div class="news__announce"><?= $news['announce'] ?></div>
