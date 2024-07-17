@@ -1,7 +1,7 @@
 <?
     define('HOST', 'localhost');
-    define('DATABASE_NAME', 'cr46629_techart');
-    define('USERNAME', 'cr46629_techart');
-    define('PASSWORD', 'ZVZ2NyCO');
+    define('DATABASE_NAME', 'techart');
+    define('USERNAME', 'root');
+    define('PASSWORD', '');
 
     $pdo = new PDO("mysql:host=" . HOST .";dbname=" . DATABASE_NAME . ";", USERNAME, PASSWORD);
